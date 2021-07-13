@@ -5,7 +5,7 @@
       <h1 class="title">-COLLECTION-</h1>
       <div class="collection-text">
         <p>2020~2021</p>
-        <p>[Color]</p>
+        <p>[:Color]</p>
         <p>初めてのブランドとしてのコレクションです。"Color"彩りをテーマにパターンを制作。<br>
            日常に刺激を。
         </p>
@@ -42,7 +42,7 @@ export default {
       images:[
          {
            index:1,
-           src:　require ( "../assets/img/nara.jpg"),
+           src: require ( "../assets/img/nara.jpg"),
            category: "women"},
          {
            index:2,
@@ -181,22 +181,23 @@ export default {
     margin: 20px 10px;
   }
 .image img {
-   padding: 10px 0 ;
+   /* padding: 10px 0 ; */
    width: 100%;
    height: 500px;
    display: block;
+   overflow: hidden;
 }  
-  .more {
+/* .more {
   text-align: center;
   margin: 3% 700px; 
   padding: 2%;
   color: #000000;
   border: 1px solid rgb(220, 220, 220);
   }
-  .more:hover {
+.more:hover {
   background-color: rgb(220, 220, 220);
   color: #FFF;
   transition: all 0.5s ease-out;
-}
+} */
 
 </style>
