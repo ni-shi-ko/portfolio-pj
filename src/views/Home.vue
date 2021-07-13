@@ -1,0 +1,59 @@
+<template>
+  <div id="app">
+    <Header />
+    <Top />
+    <div class="border"></div>
+    <Consept />
+   <div class="border"></div> 
+   
+   <div class="news">
+     <router-link to="/mainnews" class="news-title">-News-</router-link>
+     <div class="news-wrap">
+         <ul>
+             <li>2021/6/1 2021 collection</li>
+             <li>2021/5/6 Blog.01</li>
+             <li>2020/10/8 ブランド設立</li>
+         </ul>
+     </div>
+ </div>
+
+<div class="border"></div>
+   <Items />
+<div class="border"></div>
+
+    <Footer />
+   
+  </div>
+</template>
+
+<script>
+import Header from "../components/Header.vue"
+import Footer from "../components/Footer.vue"
+import Items from "../components/Items.vue"
+import Consept from "../components/Consept.vue"
+import Top from "../components/Top.vue"
+export default {
+  components: {
+    Header,
+    Top,
+    Items,
+    Consept,
+    Footer
+  }
+}
+</script>
+
+<style>
+.news-title {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.news-wrap {
+  margin-top: 2%;
+  line-height: 3.0;
+}
+
+</style>
