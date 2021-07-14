@@ -1,5 +1,5 @@
 <template>
-<div>
+<div >
   <Header />
 <div id="contact">
   <h1 class="contact-title">
@@ -87,11 +87,14 @@ export default {
 </script>
 
 <style>
+#contact {
+  margin-bottom: 3%;
+}
 .contact-title {
   text-align: center;
   font-size: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 3% 0;
+  margin: 5% 0;
 }
 .contact-form {
   width: 70%;
@@ -128,25 +131,22 @@ textarea {
   padding: 2% 5%;
   background-color: #000;
   color: #fff;
-  margin: 5% ;
+  margin: 6% ;
 }
 
 .message-wrapper {
   background-color:rgb(220, 220, 220);
-  padding-top: 3%;
-}
-.logo {
-  margin:0 2%;
+  padding: 2% ;
 }
 .logo {
   color: #fff;
   display: block;
   text-decoration: none;
+   margin:0 2%;
 }
 #message-contents  {
   display: flex;
   justify-content: center;
-  padding-bottom: 3%;
 }
 
 </style>

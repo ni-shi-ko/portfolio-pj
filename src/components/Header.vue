@@ -1,17 +1,18 @@
 <template>
   <header>
   <div class="header-wrap">
-       <div @click="$router.push({ name:'Main' })" class="header-title" >N.Ko</div>
+       <router-link to="/"  class="header-title" >N.Ko</router-link>
         
         <ul class="menu-list">
-        <li @click="$router.push({name: 'Collection'})" class="menu">collectiom</li>
-         <li @click="$router.push({name:'Home'})" class="menu">online store</li>
-         <li @click="$router.push({name:'Maninnews'})" class="menu">news</li>
-         <li @click="$router.push({name:'Detail'})" class="menu">about us</li>
-         <li @click="$router.push({name:'Contact' })" class="menu">contact</li>
+         <router-link to="/" class="menu">top</router-link>
+         <router-link to="/collection" class="menu">collectiom</router-link>
+         <router-link to="/home" class="menu">online store</router-link>
+         <router-link to="/mainnews"  class="menu">news</router-link>
+         <router-link to="/detail" class="menu">about us</router-link>
+         <router-link to="/contact" class="menu">contact</router-link>
          <li class="line"></li>
-        <li @click="$router.push({ name: 'Login'})" class="login">Login</li>
-        <li @click="$router.push({name :'Signup'})" class="enter">SignUp</li>
+        <router-link to="/login" class="login">Login</router-link>
+        <router-link to="/signup" class="enter">SignUp</router-link>
        <li class="enter">Cart</li>
 
       </ul>
@@ -38,8 +39,17 @@ header {
 li {
   list-style: none;
 }
-li:hover {
+.menu:hover  {
   transform: scale(1.2);
+  font-weight: bold;
+}
+.login:hover {
+  transform: scale(1.2);
+  font-weight: bold;
+}
+.enter:hover {
+  transform: scale(1.2);
+  font-weight: bold;
 }
 .line {
   margin: 10px 15px;
@@ -72,6 +82,8 @@ li:hover {
 }
 .login {
   margin-left: 2px;
+  color: #000;
+  text-decoration: none;
 }
 .menu {
   cursor: pointer;

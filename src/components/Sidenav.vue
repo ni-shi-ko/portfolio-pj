@@ -25,6 +25,6 @@
     list-style: none;
   }
   li:hover {
-    color: rgb(220, 220, 220);
+    font-weight: bold;
   }
 </style>

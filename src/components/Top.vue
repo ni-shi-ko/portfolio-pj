@@ -19,7 +19,7 @@
 
 <style>
 #main {
-  margin-bottom: 5%;
+  margin: 5% 0;
 }
 .img-content {
   width: 70%;

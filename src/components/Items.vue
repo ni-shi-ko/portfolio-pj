@@ -25,7 +25,7 @@
                         <li><a href="#"><img src="../assets/img/train.jpg" alt="snap1" /></a></li>
                         <li><a href="#"><img src="../assets/img/train.jpg" alt="snap1" /></a></li>
                     </ul>
-                     <p @click="$router.push({name: 'New'})" class="item-more">VIEW MORE</p>
+                      <p class="item-more"><router-link to="/new" class="view">VIEW MORE</router-link></p> 
                 </div>
                 <div v-else-if="isActive === '2'" class="inner women">
                     <h3>WOMEN</h3>
@@ -39,7 +39,7 @@
                         <li><a href="#"><img src="../assets/img/sea.png" alt="snap1" /></a></li>
                         <li><a href="#"><img src="../assets/img/sea.png" alt="snap1" /></a></li>
                     </ul>
-                     <p @click="$router.push({name: 'Women'})" class="item-more">VIEW MORE</p>
+                      <p class="item-more"><router-link to="/women" class="view">VIEW MORE</router-link></p> 
                 </div>
                 <div v-else-if="isActive === '3'" class="inner men">
                     <h3>MEN</h3>
@@ -53,7 +53,7 @@
                         <li><a href="#"><img src="../assets/img/nara.jpg" alt="snap1" /></a></li>
                         <li><a href="#"><img src="../assets/img/nara.jpg" alt="snap1" /></a></li>
                     </ul>
-                     <p @click="$router.push({name: 'Men'})"  class="item-more">VIEW MORE</p>
+                      <p class="item-more"><router-link to="/men" class="view">VIEW MORE</router-link></p> 
                 </div>
                 <div v-else-if="isActive === '4'" class="inner sale">
                     <h3>SALE</h3>
@@ -67,7 +67,7 @@
                         <li><a href="#"><img src="../assets/img/fashion.jpg" alt="snap1" /></a></li>
                         <li><a href="#"><img src="../assets/img/fashion.jpg" alt="snap1" /></a></li>
                     </ul>
-                   <p @click="$router.push({name: 'Sale'})" class="item-more">VIEW MORE</p>
+                    <p class="item-more"><router-link to="/sale" class="view">VIEW MORE</router-link></p> 
                 </div>
             </div>
            
@@ -87,12 +87,6 @@ export default {
 </script>
 
 <style scoped>
-.title {
-  text-align: center;
-  font-size: 30px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 3% 0;
-}
 
 .tabs label {
   padding: 15px 20px;
@@ -112,7 +106,7 @@ export default {
 .tabs {
   flex-grow: 1;
   border: 1px solid #000000;
-  padding: 2%;
+  padding: 3%;
   text-align: center;
 }
 .inner ul {
@@ -137,15 +131,20 @@ export default {
   text-align: center;
   padding:3% 0;
   margin: 1% 40%;
-  color: #000000;
   border: 1px solid rgb(220, 220, 220);
   cursor: pointer;
 }
+.view {
+  color: #000;
+  text-decoration: none;
+  font-size:20px ;
+}
 .item-more:hover {
   background-color: rgb(220, 220, 220);
-  color: #FFF;
   transition: all 0.4s ease-out;
 }
-
+.view:hover {
+  color: #fff;
+}
 
 </style>

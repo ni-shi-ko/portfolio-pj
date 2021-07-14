@@ -12,6 +12,7 @@ import Women from '../views/Women.vue'
 import Men from '../views/Men.vue'
 import New from '../views/New.vue'
 import Sale from '../views/Sale.vue'
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -76,9 +77,21 @@ component: Login
   }
 
 ]
+
+const scrollBehavior = (to, from, savedPosition) => {
+   if (savedPosition) {
+    return savedPosition
+  } else {
+    return { x: 0, y: 0 }
+  }
+}
+
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes
+  routes,
+  scrollBehavior
 })
+
+
 export default router

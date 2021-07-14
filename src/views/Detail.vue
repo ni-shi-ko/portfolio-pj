@@ -1,7 +1,9 @@
 <template>
-  <div class="detail">
+  <div >
     <Header />
-    <h1 class="title">-BRAND PROFILE-</h1>
+    <div class="detail">
+    <div class="detail-wrap">
+    <h1 class="title about-title">-BRAND PROFILE-</h1>
     <div class="about-detail">
       <p class="inner-title"> 
         2020年にSPRING/SUMMER COLLECTIONより、N.Koを設立。
@@ -13,7 +15,10 @@
         made in fukuiを全国へ、そして世界へと発信します。
       </p>
     </div>
+    </div>
+    </div>
     <Footer />
+    
   </div>
 </template>
 
@@ -29,13 +34,22 @@ export default {
 </script>
 
 <style>
+.detail-wrap {
+  border: 1px solid #000;
+  width: 60%;
+  margin: 7% auto;
+}
+.about-title {
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
   .about-detail {
     text-align: center;
     padding-bottom:17% ;
   }
   .inner-title  {
     font-size: 20px;
-    margin-bottom: 3%;
+    margin-bottom: 7%;
   }
   .about-detail p:not(:nth-child(1)) {
     font-size: 20px;

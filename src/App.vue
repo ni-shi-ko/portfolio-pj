@@ -99,4 +99,39 @@ hr {
 input, select {
   vertical-align:middle;
 }
+.store-title {
+    margin-left: 2%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+.new {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+.move-list {
+    margin-left: 2%;
+    color: black;
+    text-decoration: none;
+}
+.move-list:hover {
+    transform: scale(1.2);
+    font-weight: bold;
+}
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: normal;
+  margin: 3% 0;
+  text-decoration: none;
+  color: #000;
+}
+
+.border {
+  border-bottom: 1px solid #000000;
+  margin: 1% auto;
+  width: 40%;
+}
+
 </style>

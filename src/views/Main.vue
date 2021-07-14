@@ -1,6 +1,6 @@
 <template>
-  <div class="menu">
-    <p @click="$router.push({name:'Main'})" class="main-title">-N.Ko-</p>
+  <div class="main">
+    <router-link to="/"> <p class="main-title">-N.Ko-</p></router-link>
     <p class="sab-text">
       ”日常に彩りを”
     </p>
@@ -22,9 +22,14 @@
 <style scoped>
 *{
    font-family: Georgia, 'Times New Roman', Times, serif;
+   color: black;
+   text-decoration: none;
 }
 li:hover {
   transform: scale(1.5);
+}
+.main {
+  margin-top: 5%;
 }
  .main-title {
    cursor: pointer;

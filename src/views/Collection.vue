@@ -134,12 +134,6 @@ export default {
 </script>
 
 <style>
-.title {
-  text-align: center;
-  font-size: 30px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 3% 0;
-}
 .collection-text {
   font-size: 15px;
   margin-bottom: 5%;
@@ -181,23 +175,9 @@ export default {
     margin: 20px 10px;
   }
 .image img {
-   /* padding: 10px 0 ; */
    width: 100%;
    height: 500px;
    display: block;
    overflow: hidden;
 }  
-/* .more {
-  text-align: center;
-  margin: 3% 700px; 
-  padding: 2%;
-  color: #000000;
-  border: 1px solid rgb(220, 220, 220);
-  }
-.more:hover {
-  background-color: rgb(220, 220, 220);
-  color: #FFF;
-  transition: all 0.5s ease-out;
-} */
-
 </style>

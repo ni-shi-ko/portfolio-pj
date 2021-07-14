@@ -7,7 +7,7 @@
    <div class="border"></div> 
    
    <div class="news">
-     <router-link to="/mainnews" class="news-title">-News-</router-link>
+     <router-link to="/mainnews" class="title">-News-</router-link>
      <div class="news-wrap">
          <ul>
              <li>2021/6/1 2021 collection</li>
@@ -19,7 +19,6 @@
 
 <div class="border"></div>
    <Items />
-<div class="border"></div>
 
     <Footer />
    
@@ -44,13 +43,11 @@ export default {
 </script>
 
 <style>
-.news-title {
-  font-weight: bold;
-  text-decoration: none;
-  color: #000;
-  font-size: 30px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+.news {
+  text-align: center;
+  padding: 3% 0;
 }
+
 .news-wrap {
   margin-top: 2%;
   line-height: 3.0;

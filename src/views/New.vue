@@ -1,11 +1,14 @@
 <template>
   <div>
     <Header />
-    <p class="new">-NEW ARRIVALS-</p>
+    <div class="store-title">
+      <router-link to="/home" class="new">-NEW ARRIVALS-</router-link>
+    </div>
+    
       <div class="move">
-     <p @click="$router.push({name: 'Women'})">-Women-</p>
-     <p @click="$router.push({name: 'Men'})">-WOMEN-</p>
-     <p @click="$router.push({name: 'Sale'})">-SALE-</p>   
+     <router-link to="/women" class="move-list">-WOMEN-</router-link>
+     <router-link to="/men" class="move-list">-MEN-</router-link>
+     <router-link to="/sale" class="move-list">-SALE-</router-link>   
      </div>
 
     <Sidenav />
@@ -16,12 +19,14 @@
         </li>
       </ul>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Header from "../components/Header.vue"
 import Sidenav from "../components/Sidenav.vue"
+import Footer from "../components/Footer.vue"
 export default {
   data() {
     return {
@@ -47,7 +52,8 @@ export default {
   },
   components: {
     Header,
-    Sidenav
+    Sidenav,
+    Footer
   }
 }
 </script>
@@ -56,23 +62,12 @@ export default {
   .store {
     margin-left: 15%;
     width: 80%;
-  }
-  .new {
-    font-size: 20px;
-    margin-left: 1%;
     margin-bottom: 3%;
   }
   .move {
     display: flex;
     margin-bottom: 2%;
   }
-  .move p {
-    margin-left: 2%;
-  }
-  .move p:hover {
-    transform: scale(1.2);
-  }
-
  .store-list {
    display: flex;
    justify-content: space-around;
