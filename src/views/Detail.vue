@@ -6,7 +6,7 @@
     <h1 class="title about-title">-BRAND PROFILE-</h1>
     <div class="about-detail">
       <p class="inner-title"> 
-        2020年にSPRING/SUMMER COLLECTIONより、N.Koを設立。
+        2020年にSPRING/SUMMER COLLECTIONより、 Coloris(クロリ) を設立。
       </p>
       <p>
         <span>”普段の日常に彩りを”</span><br>

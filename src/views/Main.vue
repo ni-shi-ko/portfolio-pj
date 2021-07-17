@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <router-link to="/"> <p class="main-title">-N.Ko-</p></router-link>
+    <router-link to="/"> <p class="main-title">-Coloris-</p></router-link>
     <p class="sab-text">
       ”日常に彩りを”
     </p>

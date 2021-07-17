@@ -1,7 +1,7 @@
 <template>
   <header>
   <div class="header-wrap">
-       <router-link to="/"  class="header-title" >N.Ko</router-link>
+       <router-link to="/"  class="header-title" >Coloris </router-link>
         
         <ul class="menu-list">
          <router-link to="/" class="menu">top</router-link>
@@ -14,7 +14,12 @@
         <router-link to="/login" class="login">Login</router-link>
         <router-link to="/signup" class="enter">SignUp</router-link>
        <li class="enter">Cart</li>
-
+       <li class="line"></li>
+       <li>
+         <div class="search-form">
+         <input type="text" placeholder="Serch" class="search" v-model="item_name">
+       </div>
+       </li>
       </ul>
        
        <!-- <ul class="header-list"> 
@@ -27,6 +32,16 @@
 
   </header>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      item_name:''
+    }
+  }
+}
+</script>
 
 <style scoped> 
 header {
@@ -96,5 +111,14 @@ li {
   text-decoration: none;
   color: #000;
   margin-left: 50px;
+}
+.search {
+  margin-left: 2px;
+  width: 100%;
+  cursor: pointer;
+  text-decoration: none;
+}
+input {
+ margin-bottom: 0;
 }
 </style>

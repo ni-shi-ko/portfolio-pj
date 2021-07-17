@@ -7,7 +7,7 @@
                 <img src="../assets/img/sea.png" alt="画像" id="slide_img" class="main-image" />
             </div>    
             <p class="text">
-                "N.Ko"<br>
+                -Coloris-<br>
                 日常に彩りを。
             </p>
 
