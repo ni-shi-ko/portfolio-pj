@@ -30,7 +30,7 @@ component: Login
   path: '/signup',
  name: 'Signup',
  component: Signup
-  },
+ },
   {
     path: '/home',
     name: 'Home',

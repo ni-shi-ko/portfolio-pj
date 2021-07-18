@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <router-link to="/"> <p class="main-title">-Coloris-</p></router-link>
+    <router-link to="/"> <p class="main-title brand-name">-Coloris-</p></router-link>
     <p class="sab-text">
       ”日常に彩りを”
     </p>
@@ -13,7 +13,7 @@
         <li @click="$router.push({name:'Contact' })">-Contact us-</li>
       </ul>
        <div class="menu-img">
-        <img src="../assets/img/sea.png" alt="">
+        <img src="../assets/img/top.jpg" alt="">
       </div>
     </div>
   </div>
@@ -21,7 +21,6 @@
 
 <style scoped>
 *{
-   font-family: Georgia, 'Times New Roman', Times, serif;
    color: black;
    text-decoration: none;
 }
@@ -50,6 +49,7 @@ li:hover {
    margin-right: 5%;
  }
  .main-list li {
+   font-family: Georgia, 'Times New Roman', Times, serif;
    cursor: pointer;
    list-style: none;
    margin-bottom: 80%;

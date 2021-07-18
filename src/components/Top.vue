@@ -4,9 +4,9 @@
             <div class="container">
                
             <div class="img-content">
-                <img src="../assets/img/sea.png" alt="画像" id="slide_img" class="main-image" />
+                <img src="../assets/img/top.jpg" alt="画像" id="slide_img" class="main-image" />
             </div>    
-            <p class="text">
+            <p class="text brand-name">
                 -Coloris-<br>
                 日常に彩りを。
             </p>
@@ -37,7 +37,6 @@
   top: 55%;
   right: 18%;
   font-size: 40px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 

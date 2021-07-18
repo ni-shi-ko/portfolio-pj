@@ -1,7 +1,7 @@
 <template>
   <header>
   <div class="header-wrap">
-       <router-link to="/"  class="header-title" >Coloris </router-link>
+       <router-link to="/"  class="header-title brand-name" >Coloris </router-link>
         
         <ul class="menu-list">
          <router-link to="/" class="menu">top</router-link>
@@ -75,7 +75,6 @@ li {
 .header-title {
   cursor: pointer;
   font-size: 50px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
   text-decoration: none;
   color: #000;
   margin: 20px;
