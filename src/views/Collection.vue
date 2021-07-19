@@ -46,7 +46,7 @@ export default {
            category: "women"},
          {
            index:2,
-           src: require ("../assets/img/tokyostation.jpg"),
+           src: require ("../assets/img/bland.jpg"),
            category: "men"},
           {
             index:3,
@@ -58,11 +58,11 @@ export default {
             category: "women"},
           {
             index:5,
-            src: require ("../assets/img/tokyostation.jpg"),
+            src: require ("../assets/img/bland3.jpg"),
             category: "men"},
           {
             index:5,
-             src: require ("../assets/img/tokyostation.jpg"),
+             src: require ("../assets/img/bland2.jpg"),
             category: "men"},
           {
             index:6,
