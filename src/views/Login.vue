@@ -6,7 +6,8 @@
      <div class="form">
        <input placeholder="メールアドレス" type="email" />
        <input placeholder="パスワード" type="password" />
-       <button>Login</button>
+       <router-link to="/" class="btn">Login</router-link>
+       <router-link to="/signup" class="btn signbtn">Signup</router-link>
      </div>
    </div>
  </div>
@@ -22,14 +23,19 @@ export default {
 </script>
 
 <style scoped>
-button {
+.btn {
   width: 100px;
   background-color: #fff;
   text-align: center;
-  padding: 8px 0 10px;
+  padding:  5%;
   color: #000;
+  text-decoration: none;
+  border: 1px solid #000;
   cursor: pointer;
-}
+ }
+ .signbtn {
+   margin-left: 10px;
+ }
 .card {
   border: 1px solid #000;
   margin: 100px auto;
@@ -50,6 +56,9 @@ input {
   padding: 10px;
   border: 1px solid black;
   color: black;
+}
+input:nth-child(2) {
+  margin-bottom: 10%;
 }
 .form {
   text-align: center;

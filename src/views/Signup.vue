@@ -1,14 +1,14 @@
 <template>
   <div>
     <Header />
+   
     <div class="card">
       <p>SignUp</p>
-      <form class="form" method="post" @submit.prevent="sendSignUp()">
+      <form class="form" method="post"   @submit.prevent="sendSignUp()">    
         <input placeholder="name" type="text" v-model="text"/>
-        <input placeholder="profile" type="text" v-model="text"/>
         <input placeholder="mail" type="email" v-model="email"/>
         <input placeholder="password" type="password" v-model="pas"/>
-        <button @click="auth">SignUp</button>
+        <button @click="signUp">SignUp</button>
       </form>
     </div>
   </div>
