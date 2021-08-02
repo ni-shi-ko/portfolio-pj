@@ -10,8 +10,8 @@
   "dependencies": {
     "@fortawesome/vue-fontawesome": "^2.0.2",
     "axios": "^0.21.1",
-    "core-js": "^3.6.5",
-    "firebase": "^8.7.1",
+    "core-js": "^3.15.2",
+    "firebase": "^8.8.0",
     "vue": "^2.6.11",
     "vue-awesome": "^4.3.1",
     "vue-router": "^3.2.0",
@@ -28,5 +28,20 @@
     "eslint-plugin-vue": "^6.2.2",
     "firebase-tools": "^9.16.0",
     "vue-template-compiler": "^2.6.11"
-  }
+  },
+  "description": "## Project setup ``` yarn install ```",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ni-shi-ko/portfolio-pj.git"
+  },
+  "keywords": [
+    "nishide0824"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ni-shi-ko/portfolio-pj/issues"
+  },
+  "homepage": "https://github.com/ni-shi-ko/portfolio-pj#readme"
 }

@@ -5,7 +5,7 @@
       <router-link to="/home" class="new">-Sale-</router-link>
     </div>
     <div class="move">
-      <router-link to="/new" class="move-list">-NEW ARRIVALS-</router-link>
+      <router-link to="/new" class="move-list">-NEW-</router-link>
      <router-link to="/women" class="move-list">-Women-</router-link>
      <router-link to="/men" class="move-list">-MEN-</router-link>   
      </div>

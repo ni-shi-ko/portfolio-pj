@@ -6,9 +6,7 @@
       <div class="collection-text">
         <p>2020~2021</p>
         <p>[:Color]</p>
-        <p>初めてのブランドとしてのコレクションです。"Color"彩りをテーマにパターンを制作。<br>
-           日常に刺激を。
-        </p>
+        <p>初めてのブランドとしてのコレクションです。"Color"彩りをテーマに作成しました。</p>
       </div>
        <div class="category-nav">
     <label>
@@ -46,7 +44,7 @@ export default {
            category: "women"},
          {
            index:2,
-           src: require ("../assets/img/bland.jpg"),
+           src: require ("../assets/img/collection11.jpg"),
            category: "men"},
           {
             index:3,
@@ -58,11 +56,11 @@ export default {
             category: "women"},
           {
             index:5,
-            src: require ("../assets/img/bland3.jpg"),
+            src: require ("../assets/img/collectiom2.jpg"),
             category: "men"},
           {
             index:5,
-             src: require ("../assets/img/bland2.jpg"),
+             src: require ("../assets/img/collection3.jpg"),
             category: "men"},
           {
             index:6,
@@ -74,11 +72,11 @@ export default {
             category: "women"},
           {
             index:8,
-            src: require ("../assets/img/tokyostation.jpg"),
+            src: require ("../assets/img/collection4.jpg"),
             category: "men"},   
           {
             index:9,
-            src: require ("../assets/img/tokyostation.jpg"),
+            src: require ("../assets/img/collection5.jpg"),
             category: "men"},
           {
             index:10,
@@ -86,7 +84,7 @@ export default {
             category: "women"},
           {
             index:11,
-            src: require ("../assets/img/tokyostation.jpg"),
+            src: require ("../assets/img/collection10.jpg"),
             category: "men"},
           {
             index:12,
@@ -94,11 +92,11 @@ export default {
             category: "women"},
           {
             index:13,
-            src: require ("../assets/img/tokyostation.jpg"),
+            src: require ("../assets/img/collection7.jpg"),
             category: "men"},
           {
             index:14,
-            src: require ("../assets/img/tokyostation.jpg"),
+            src: require ("../assets/img/collection12.jpg"),
             category:"men"
           },
           {
@@ -113,7 +111,7 @@ export default {
           },
           {
             index:17,
-            src: require ("../assets/img/tokyostation.jpg"),
+            src: require ("../assets/img/collection9.jpg"),
             category:"men"
           }
       ]

@@ -6,7 +6,7 @@
     </div>
   
      <div class="move">
-     <router-link to="/new" class="move-list">-NEW ARRIVALS-</router-link>
+     <router-link to="/new" class="move-list">-NEW-</router-link>
      <router-link to="/women" class="move-list">-WOMEN-</router-link>
      <router-link to="/sale" class="move-list">-SALE-</router-link>   
      </div>
@@ -31,22 +31,22 @@ export default {
   data() {
     return {
       images :[
-      require("../assets/img/nara.jpg"),
-      require("../assets/img/nara.jpg"),
-      require("../assets/img/nara.jpg"),
-      require("../assets/img/nara.jpg"),
-      require("../assets/img/nara.jpg"),
-      require("../assets/img/nara.jpg"),
-      require("../assets/img/nara.jpg"),
-      require("../assets/img/nara.jpg"),
-      require("../assets/img/nara.jpg"),
-      require("../assets/img/nara.jpg"),
-      require("../assets/img/nara.jpg"),
-      require("../assets/img/nara.jpg"),
-      require("../assets/img/nara.jpg"),
-      require("../assets/img/nara.jpg"),
-      require("../assets/img/nara.jpg"),
-      require("../assets/img/nara.jpg"),
+      require("../assets/img/huku7.jpg"),
+      require("../assets/img/huku6.jpg"),
+      require("../assets/img/huku8.jpg"),
+      require("../assets/img/huku5.jpg"),
+      require("../assets/img/huku11.jpg"),
+      require("../assets/img/huku10.jpg"),
+      require("../assets/img/huku12.jpg"),
+      require("../assets/img/huku13.jpg"),
+      require("../assets/img/huku20.jpg"),
+      require("../assets/img/huku22.jpg"),
+      require("../assets/img/huku14.jpg"),
+      require("../assets/img/huku15.jpg"),
+      require("../assets/img/huku16.jpg"),
+      require("../assets/img/huku17.jpg"),
+      require("../assets/img/huku21.jpg"),
+      // require("../assets/img/huku.png"),
       ]
     }
   },

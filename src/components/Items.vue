@@ -4,7 +4,7 @@
             <h1 class="title">-Brand Items-</h1>
            <div class="tabs">
              <input type="radio" id="tab1" value="1" v-model="isActive">
-             <label class="tab" for="tab1">NEW ARRIVALS</label>
+             <label class="tab" for="tab1">NEW</label>
               <input type="radio" id="tab2" value="2" v-model="isActive">
              <label class="tab" for="tab2"> WOMEN</label>
               <input type="radio" id="tab3" value="3" v-model="isActive">
@@ -14,44 +14,44 @@
            </div>
             <div class="tab-inner">
                 <div v-if="isActive === '1'"  class="inner new ">
-                   <h3>NEW ARRIVALS</h3>
+                   <h3>NEW</h3>
                    <ul class="imgs">
-                        <li><a href="#"><img src="../assets/img/train.jpg" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/train.jpg" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/train.jpg" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/train.jpg" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/train.jpg" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/train.jpg" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/train.jpg" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/train.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/huku7.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/huku6.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/hukuw12.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/hukuw11.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/huku10.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/huku11.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/hukuw3.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/hukuw1.jpg" alt="snap1" /></a></li>
                     </ul>
                       <p class="item-more"><router-link to="/new" class="view">VIEW MORE</router-link></p> 
                 </div>
                 <div v-else-if="isActive === '2'" class="inner women">
                     <h3>WOMEN</h3>
                     <ul class="imgs">
-                        <li><a href="#"><img src="../assets/img/sea.png" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/sea.png" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/sea.png" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/sea.png" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/sea.png" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/sea.png" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/sea.png" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/sea.png" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/hukuw4.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/hukuw11.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/hukuw12.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/hukuw6.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/hukuw1.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/hukuw2.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/hukuw3.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/hukuw5.jpg" alt="snap1" /></a></li>
                     </ul>
                       <p class="item-more"><router-link to="/women" class="view">VIEW MORE</router-link></p> 
                 </div>
                 <div v-else-if="isActive === '3'" class="inner men">
                     <h3>MEN</h3>
                     <ul class="imgs">
-                        <li><a href="#"><img src="../assets/img/nara.jpg" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/nara.jpg" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/nara.jpg" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/nara.jpg" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/nara.jpg" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/nara.jpg" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/nara.jpg" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/nara.jpg" alt="snap1" /></a></li>
+                       <li><a href="#"><img src="../assets/img/huku7.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/huku6.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/huku8.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/huku5.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/huku10.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/huku11.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/huku13.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/huku12.jpg" alt="snap1" /></a></li>
                     </ul>
                       <p class="item-more"><router-link to="/men" class="view">VIEW MORE</router-link></p> 
                 </div>

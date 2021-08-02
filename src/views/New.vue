@@ -2,7 +2,7 @@
   <div>
     <Header />
     <div class="store-title">
-      <router-link to="/home" class="new">-NEW ARRIVALS-</router-link>
+      <router-link to="/home" class="new">-NEW-</router-link>
     </div>
     
       <div class="move">
@@ -31,22 +31,35 @@ export default {
   data() {
     return {
       images :[
-      require("../assets/img/train.jpg"),
-      require("../assets/img/train.jpg"),
-      require("../assets/img/train.jpg"),
-      require("../assets/img/train.jpg"),
-      require("../assets/img/train.jpg"),
-      require("../assets/img/train.jpg"),
-      require("../assets/img/train.jpg"),
-      require("../assets/img/train.jpg"),
-      require("../assets/img/train.jpg"),
-      require("../assets/img/train.jpg"),
-      require("../assets/img/train.jpg"),
-      require("../assets/img/train.jpg"),
-      require("../assets/img/train.jpg"),
-      require("../assets/img/train.jpg"),
-      require("../assets/img/train.jpg"),
-      require("../assets/img/train.jpg"),
+      require("../assets/img/huku7.jpg"),
+      require("../assets/img/huku6.jpg"),
+      require("../assets/img/huku8.jpg"),
+      require("../assets/img/huku5.jpg"),     
+      require("../assets/img/hukuw4.jpg"),
+      require("../assets/img/huku19.jpg"),
+      require("../assets/img/hukuw12.jpg"),
+      require("../assets/img/hukuw9.jpg"),
+      require("../assets/img/huku11.jpg"),
+      require("../assets/img/huku10.jpg"),
+      require("../assets/img/huku12.jpg"),
+      require("../assets/img/huku13.jpg"),
+      require("../assets/img/huku20.jpg"),
+      require("../assets/img/huku22.jpg"),
+      require("../assets/img/hukuw1.jpg"),
+      require("../assets/img/hukuw14.jpg"),
+      require("../assets/img/hukuw2.jpg"),
+      require("../assets/img/hukuw5.jpg"),
+      require("../assets/img/hukuw3.jpg"),
+      require("../assets/img/huku14.jpg"),
+      require("../assets/img/huku15.jpg"),
+      require("../assets/img/huku16.jpg"),
+      require("../assets/img/huku17.jpg"),
+      require("../assets/img/huku21.jpg"),
+      require("../assets/img/hukuw6.jpg"),
+      require("../assets/img/hukuw7.jpg"),
+      require("../assets/img/hukuw13.jpg"),
+      require("../assets/img/hukuw11.jpg"),
+
       ]
     }
   },

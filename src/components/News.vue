@@ -1,6 +1,6 @@
 <template>
  <div class="card">
-   <img src="../assets/img/sea.png" alt="" class="card-img" >
+   <img src="../assets/img/collection16.png" alt="" class="card-img" >
    <div class="card-content">
   <h1 class="card-title">{{news}}</h1>
 </div>
