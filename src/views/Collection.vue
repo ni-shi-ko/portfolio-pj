@@ -3,6 +3,9 @@
     <Header />
     <div class="collections">
       <h1 class="title">-COLLECTION-</h1>
+      <div id="collection-main">
+       
+      </div>
       <div class="collection-text">
         <p>2020~2021</p>
         <p>[:Color]</p>
@@ -84,7 +87,7 @@ export default {
             category: "women"},
           {
             index:11,
-            src: require ("../assets/img/collection10.jpg"),
+            src: require ("../assets/img/collection1.jpg"),
             category: "men"},
           {
             index:12,
@@ -111,7 +114,7 @@ export default {
           },
           {
             index:17,
-            src: require ("../assets/img/collection9.jpg"),
+            src: require ("../assets/img/collection8.jpg"),
             category:"men"
           }
       ]
@@ -132,6 +135,14 @@ export default {
 </script>
 
 <style>
+#collection-main {
+  width: 100%;
+  padding: 10% 0;
+  margin-bottom: 3%;
+  background-image: url("../assets/img/collection16.png");
+  background-size: cover;
+  background-position: center;
+}
 .collection-text {
   font-size: 15px;
   margin-bottom: 5%;
@@ -167,14 +178,13 @@ export default {
   flex-wrap: wrap;
   justify-content: center;
 }
-.image{
+.image {
     list-style: none;
-     width: 30%;
+    width: 30%;
     margin: 20px 10px;
   }
 .image img {
    width: 100%;
-   height: 500px;
    display: block;
    overflow: hidden;
 }  
