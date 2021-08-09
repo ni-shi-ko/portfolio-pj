@@ -190,9 +190,15 @@ export default {
    .collections {
      width: 100%;
    }
+   .collection-imgs {
+     justify-content: space-around;
+   }
    .image {
-     width: 50%;
+     width: 45%;
      margin: 0;
    }
+  .image img {
+    margin-bottom: 8%;
+  }
  }
 </style>
