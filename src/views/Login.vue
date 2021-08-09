@@ -67,4 +67,9 @@ input:nth-child(2) {
 .form button {
   margin-top: 15px;
 }
+ @media screen and (max-width: 768px)  {
+   .card {
+     width: 80%;
+   }
+ }
 </style>

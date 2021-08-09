@@ -189,9 +189,6 @@ export default {
    overflow: hidden;
 }  
  @media screen and (max-width: 768px)  {
-   .collections {
-     width: 100%;
-   }
    .collection-imgs {
      justify-content: space-around;
    }

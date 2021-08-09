@@ -52,7 +52,7 @@ export default {
   margin-top: 2%;
   line-height: 3.0;
 }
- @media screen and (max-width: 768px)  {
+ @media screen and (max-width: 768px)  { 
    .news {
      margin: 3% 0;
    }

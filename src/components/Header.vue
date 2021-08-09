@@ -143,6 +143,10 @@ input {
 header {
      line-height: 1.0;
    }
+   .header-wrap {
+     justify-content: flex-start;
+   }
+
    .menu-list {
      display: none;
    }
@@ -151,8 +155,8 @@ header {
   position: fixed; 
   top: 0;
   right: 0;
-  width: 70px;
-  height: 72px;
+  width: 20%;
+  
   cursor: pointer;
   z-index: 200;
 }
@@ -160,9 +164,9 @@ header {
 .hamburger_btn .line {
   position: absolute;
   top: 0;
-  left: 20px;
-  width: 32px;
-  height: 2px;
+  left: 20%;
+  width: 40%;
+  height:2px;
   background: #000;
   text-align: center;
 }
@@ -207,7 +211,7 @@ header {
 .menu li {
   list-style: none;
   line-height: 1;
-  padding:16px;
+  padding: 16px;
 }
 .menu {
   display: inherit;
@@ -224,7 +228,7 @@ header {
   color: #000;
   text-decoration: none;
   font-size: 1.2rem;
-  padding: 0 2rem;
+  padding: 0 32px;
 }
 .menu ul{
   margin:16px;
