@@ -37,7 +37,7 @@ export default {
 .detail-wrap {
   border: 1px solid #000;
   width: 60%;
-  margin: 7% auto;
+  margin: 9% auto;
 }
 .about-title {
   margin-top: 15%;

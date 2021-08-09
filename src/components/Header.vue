@@ -28,7 +28,7 @@
       <span class="line line_03" :class="{'btn_line03':ActiveBtn}"></span>
     </div>
 
-      <transition name="menu">
+     <transition name="menu">
       <div class="menu" v-show="ActiveBtn">
           <ul>
          <li @click="$router.push({name: 'Collection'})">-Collection-</li>
@@ -36,12 +36,13 @@
         <li @click="$router.push({name:'Maninnews'})">-News-</li>
         <li @click="$router.push({name:'Detail'})">-About us-</li>
         <li @click="$router.push({name:'Contact' })">-Contact us-</li>
+        <li @click="$router.push({name: 'Login'})">-Login-</li>
+        <li @click="$router.push({name:'Signup'})">-Signup-</li>
           </ul>
       </div>
   </transition>
 </div>
-
-  </header>
+ </header>
 </template>
 
 <script>
@@ -206,16 +207,16 @@ header {
 .menu li {
   list-style: none;
   line-height: 1;
-  padding: 1rem;
+  padding:16px;
 }
 .menu {
   display: inherit;
   background-color: #ffff;
   z-index: 30;
-  padding: 2rem 1rem;
+  padding: 32px 16px;
   position: fixed;
   width: 100%;
-  height: 80rem;
+  height: 1260px;
   top: 0;
   left: 0;
 }
@@ -226,7 +227,7 @@ header {
   padding: 0 2rem;
 }
 .menu ul{
-  margin: 1rem;
+  margin:16px;
   padding: 0;
 }
 

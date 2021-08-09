@@ -149,6 +149,9 @@ textarea {
   justify-content: center;
 }
  @media screen and (max-width: 768px)  {
+   #contact {
+     margin: 20% 0;
+   }
    .contact-form {
      width: 90%;
    }
