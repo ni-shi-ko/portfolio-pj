@@ -4,12 +4,12 @@
        <router-link to="/"  class="header-title brand-name" >Coloris </router-link>
         
         <ul class="menu-list">
-         <router-link to="/" class="menu">top</router-link>
-         <router-link to="/collection" class="menu">collectiom</router-link>
-         <router-link to="/home" class="menu">online store</router-link>
-         <router-link to="/mainnews"  class="menu">news</router-link>
-         <router-link to="/detail" class="menu">about us</router-link>
-         <router-link to="/contact" class="menu">contact</router-link>
+         <router-link to="/" class="brand-nav">top</router-link>
+         <router-link to="/collection" class="brand-nav">collectiom</router-link>
+         <router-link to="/home" class="brand-nav">online store</router-link>
+         <router-link to="/mainnews"  class="brand-nav">news</router-link>
+         <router-link to="/detail" class="brand-nav">about us</router-link>
+         <router-link to="/contact" class="brand-nav">contact</router-link>
          <li class="line"></li>
         <router-link to="/login" class="login">Login</router-link>
         <router-link to="/signup" class="enter">SignUp</router-link>
@@ -22,9 +22,24 @@
        </li>
       </ul>
        
-       
-
+    <div class="hamburger_btn" v-on:click='ActiveBtn=!ActiveBtn'>
+      <span class="line line_01" :class="{'btn_line01':ActiveBtn}"></span>
+      <span class="line line_02" :class="{'btn_line02':ActiveBtn}"></span>
+      <span class="line line_03" :class="{'btn_line03':ActiveBtn}"></span>
     </div>
+
+      <transition name="menu">
+      <div class="menu" v-show="ActiveBtn">
+          <ul>
+         <li @click="$router.push({name: 'Collection'})">-Collection-</li>
+        <li @click="$router.push({name: 'Home'})">-Online Store-</li>
+        <li @click="$router.push({name:'Maninnews'})">-News-</li>
+        <li @click="$router.push({name:'Detail'})">-About us-</li>
+        <li @click="$router.push({name:'Contact' })">-Contact us-</li>
+          </ul>
+      </div>
+  </transition>
+</div>
 
   </header>
 </template>
@@ -33,8 +48,8 @@
 export default {
   data() {
     return {
-      item_name:''
-    }
+        ActiveBtn: false
+    };
   }
 }
 </script>
@@ -50,7 +65,7 @@ header {
 li {
   list-style: none;
 }
-.menu:hover  {
+.brand-nav:hover  {
   transform: scale(1.2);
   font-weight: bold;
 }
@@ -95,7 +110,7 @@ li {
   color: #000;
   text-decoration: none;
 }
-.menu {
+.brand-nav {
   cursor: pointer;
   text-decoration: none;
   color: #000;
@@ -116,9 +131,105 @@ li {
 input {
  margin-bottom: 0;
 }
+ .menu {
+   display: none;
+ }
+ .hamburger_btn {
+   display: none;
+ }
+
  @media screen and (max-width: 768px)  {
-   header {
+header {
      line-height: 1.0;
    }
+   .menu-list {
+     display: none;
+   }
+ .hamburger_btn {
+  display: inherit; 
+  position: fixed; 
+  top: 0;
+  right: 0;
+  width: 70px;
+  height: 72px;
+  cursor: pointer;
+  z-index: 50;
+}
+
+.hamburger_btn .line {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 32px;
+  height: 2px;
+  background: #000;
+  text-align: center;
+}
+
+.hamburger_btn .line_01 {
+  top: 16px;
+  transition: 0.4s ease;
+}
+.hamburger_btn .line_02 {
+  top: 26px;
+  transition: 0.4s ease;
+}
+.hamburger_btn .line_03 {
+  top: 36px;
+  transition: 0.4s ease;
+}
+
+
+.btn_line01 {
+  transform: translateY(10px) rotate(-45deg);
+  transition: 0.4s ease;
+}
+.btn_line02 {
+  transition: 0.4s ease;
+  opacity: 0;
+}
+.btn_line03 {
+  transform: translateY(-10px) rotate(45deg);
+  transition: 0.4s ease;
+}
+
+.menu-enter-active, .menu-leave-active {
+  transition: opacity 0.4s;
+}
+.menu-enter, .menu-leave-to {
+  opacity: 0;
+}
+.menu-leave, .menu-enter-to{
+  opacity: 1;
+}
+
+.menu li {
+  list-style: none;
+  line-height: 1;
+  padding: 1rem;
+}
+.menu {
+  display: inherit;
+  background-color: #ffff;
+  z-index: 30;
+  padding: 2rem 1rem;
+  position: fixed;
+  width: 100%;
+  height: 80rem;
+  top: 0;
+  left: 0;
+}
+.menu a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 0 2rem;
+}
+.menu ul{
+  margin: 1rem;
+  padding: 0;
+}
+
+
  }
 </style>

@@ -28,6 +28,7 @@ time, mark, audio, video {
 
 body {
   line-height:1;
+  width: 100%;
 }
 
 article,aside,details,figcaption,figure,

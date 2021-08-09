@@ -3,9 +3,7 @@
     <Header />
     <div class="collections">
       <h1 class="title">-COLLECTION-</h1>
-      <div id="collection-main">
-       
-      </div>
+      <div id="collection-main"></div>
       <div class="collection-text">
         <p>2020~2021</p>
         <p>[:Color]</p>
@@ -190,7 +188,7 @@ export default {
 }  
  @media screen and (max-width: 768px)  {
    .collections {
-     width: 90%;
+     width: 100%;
    }
    .image {
      width: 50%;
