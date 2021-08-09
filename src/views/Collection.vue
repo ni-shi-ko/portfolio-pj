@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="collections">
     <Header />
-    <div class="collections">
+   
       <h1 class="title">-COLLECTION-</h1>
       <div id="collection-main"></div>
       <div class="collection-text">
@@ -25,7 +25,7 @@
           <img :src="image.src" alt="">
         </li>       
       </ul>
-    </div>
+   
  
     <Footer />
   </div>
@@ -135,6 +135,7 @@ export default {
 <style>
 #collection-main {
   width: 100%;
+  margin: 0 auto;
   padding: 10% 0;
   margin-bottom: 3%;
   background-image: url("../assets/img/collection16.png");
@@ -144,6 +145,8 @@ export default {
 .collection-text {
   font-size: 15px;
   margin-bottom: 5%;
+  margin-left: 5%;
+ 
 }
 .collection-text p {
   margin-bottom: 2%;
@@ -152,7 +155,7 @@ export default {
   font-weight: bold;
 }
 .collections {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 .category-nav {
