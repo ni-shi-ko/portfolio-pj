@@ -82,7 +82,8 @@ export default {
 }
  @media screen and (max-width: 768px)  {
    .store {
-     width: 90%;
+     width: 100%;
+     margin: 0 auto;
    }
    .move {
      justify-content: center;

@@ -58,14 +58,11 @@
                 <div v-else-if="isActive === '4'" class="inner sale">
                     <h3>SALE</h3>
                     <ul class="imgs">
-                        <li><a href="#"><img src="../assets/img/fashion.jpg" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/fashion.jpg" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/fashion.jpg" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/fashion.jpg" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/fashion.jpg" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/fashion.jpg" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/fashion.jpg" alt="snap1" /></a></li>
-                        <li><a href="#"><img src="../assets/img/fashion.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/huku8.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/huku6.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/hukuw1.jpg" alt="snap1" /></a></li>
+                        <li><a href="#"><img src="../assets/img/hukuw5.jpg" alt="snap1" /></a></li>
+                       
                     </ul>
                     <p class="item-more"><router-link to="/sale" class="view">VIEW MORE</router-link></p> 
                 </div>

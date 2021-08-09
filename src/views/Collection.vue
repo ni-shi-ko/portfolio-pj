@@ -1,7 +1,6 @@
 <template>
   <div class="collections">
     <Header />
-   
       <h1 class="title">-COLLECTION-</h1>
       <div id="collection-main"></div>
       <div class="collection-text">

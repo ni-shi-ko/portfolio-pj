@@ -154,7 +154,7 @@ header {
   width: 70px;
   height: 72px;
   cursor: pointer;
-  z-index: 50;
+  z-index: 200;
 }
 
 .hamburger_btn .line {

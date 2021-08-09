@@ -30,22 +30,10 @@ export default {
   data() {
     return {
       images :[
-      require("../assets/img/fashion.jpg"),
-      require("../assets/img/fashion.jpg"),
-      require("../assets/img/fashion.jpg"),
-      require("../assets/img/fashion.jpg"),
-      require("../assets/img/fashion.jpg"),
-      require("../assets/img/fashion.jpg"),
-      require("../assets/img/fashion.jpg"),
-      require("../assets/img/fashion.jpg"),
-      require("../assets/img/fashion.jpg"),
-      require("../assets/img/fashion.jpg"),
-      require("../assets/img/fashion.jpg"),
-      require("../assets/img/fashion.jpg"),
-      require("../assets/img/fashion.jpg"),
-      require("../assets/img/fashion.jpg"),
-      require("../assets/img/fashion.jpg"),
-      require("../assets/img/fashion.jpg"),
+      require("../assets/img/huku8.jpg"),
+      require("../assets/img/huku6.jpg"),
+      require("../assets/img/hukuw1.jpg"),
+      require("../assets/img/hukuw5.jpg"),
       ]
     }
   },
@@ -61,7 +49,7 @@ export default {
   .store {
     margin-left: 15%;
     width: 80%;
-    margin-bottom: 3%;
+    margin-bottom: 30%;
   }
   .move {
     display: flex;
@@ -85,7 +73,9 @@ export default {
 }
  @media screen and (max-width: 768px)  {
    .store {
-     width: 90%;
+      width: 100%;
+     margin: 0 auto;
+     height: 70vh;
    }
    .move {
      justify-content: center;
