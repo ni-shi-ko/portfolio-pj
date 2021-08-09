@@ -148,5 +148,17 @@ textarea {
   display: flex;
   justify-content: center;
 }
-
+ @media screen and (max-width: 768px)  {
+   .contact-form {
+     width: 90%;
+   }
+   #message-contents {
+     width: 60%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+   }
+   .logo {
+     margin-bottom: 2%;
+   }
+ }
 </style>

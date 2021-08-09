@@ -27,4 +27,15 @@
   li:hover {
     font-weight: bold;
   }
+   @media screen and (max-width: 768px)  {
+     .side {
+       position: inherit;
+       width: 100%;
+     }
+     .side-list {
+       display: flex;
+       justify-content: space-around;
+       
+     }
+   }
 </style>

@@ -43,7 +43,7 @@ export default {
       images:[
          {
            index:1,
-           src: require ( "../assets/img/nara.jpg"),
+           src: require ( "../assets/img/wcollection1.jpg"),
            category: "women"},
          {
            index:2,
@@ -51,11 +51,11 @@ export default {
            category: "men"},
           {
             index:3,
-            src: require ("../assets/img/nara.jpg"),
+            src: require ("../assets/img/wcollection2.jpg"),
             category: "women"},  
           {
             index:4,
-            src: require ("../assets/img/nara.jpg"),
+            src: require ("../assets/img/wcollection5.jpg"),
             category: "women"},
           {
             index:5,
@@ -67,11 +67,11 @@ export default {
             category: "men"},
           {
             index:6,
-            src: require ("../assets/img/nara.jpg"),
+            src: require ("../assets/img/wcollection6.jpg"),
             category: "women"},
           {
             index:7,
-            src: require ("../assets/img/nara.jpg"),
+            src: require ("../assets/img/wcollection4.jpg"),
             category: "women"},
           {
             index:8,
@@ -83,7 +83,7 @@ export default {
             category: "men"},
           {
             index:10,
-            src: require ("../assets/img/nara.jpg"),
+            src: require ("../assets/img/wcollection8.jpg"),
             category: "women"},
           {
             index:11,
@@ -91,7 +91,7 @@ export default {
             category: "men"},
           {
             index:12,
-            src: require ("../assets/img/nara.jpg"),
+            src: require ("../assets/img/wcollection7.jpg"),
             category: "women"},
           {
             index:13,
@@ -104,12 +104,12 @@ export default {
           },
           {
             index:15,
-            src: require ("../assets/img/nara.jpg"),
+            src: require ("../assets/img/wcollection3.jpg"),
             category:"women"
           },
           {
             index:16,
-            src: require ("../assets/img/nara.jpg"),
+            src: require ("../assets/img/wcollection9.jpg"),
             category:"women"
           },
           {
@@ -188,4 +188,13 @@ export default {
    display: block;
    overflow: hidden;
 }  
+ @media screen and (max-width: 768px)  {
+   .collections {
+     width: 90%;
+   }
+   .image {
+     width: 50%;
+     margin: 0;
+   }
+ }
 </style>

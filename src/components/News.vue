@@ -58,4 +58,9 @@ export default {
 .card-link a:hover {
   color: #0090aa;
 }
+ @media screen and (max-width: 768px)  {
+   .card {
+     width: 90%;
+   }
+ }
 </style>

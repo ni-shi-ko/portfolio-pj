@@ -42,5 +42,13 @@
   line-height: 2.5;
   margin-left: 5%;
 }
-
+ @media screen and (max-width: 768px)  {
+   .about-wrap {
+     display: inherit;
+   }
+   .img-conte {
+     width: 90%;
+     margin: 0 auto;
+   }
+ }
 </style>

@@ -22,11 +22,7 @@
        </li>
       </ul>
        
-       <!-- <ul class="header-list"> 
-        <li @click="$router.push({ name: 'Login'})" class="enter">Login</li>
-        <li @click="$router.push({name :'Signup'})" class="enter">SignUp</li>
-       <li class="enter">Cart</li>
-      </ul> -->
+       
 
     </div>
 
@@ -120,4 +116,9 @@ li {
 input {
  margin-bottom: 0;
 }
+ @media screen and (max-width: 768px)  {
+   header {
+     line-height: 1.0;
+   }
+ }
 </style>

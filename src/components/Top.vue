@@ -38,6 +38,18 @@
   right: 18%;
   font-size: 40px;
 }
-
+ @media screen and (max-width: 768px)  {
+   .text {
+     position: inherit;
+     text-align: center;
+     margin: 5% 0;
+   }
+   .img-content {
+     width: 100%;
+   }
+   #slide_img {
+     width: 100%;
+   }
+ }
 
 </style>

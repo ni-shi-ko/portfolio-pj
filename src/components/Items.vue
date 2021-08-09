@@ -147,4 +147,19 @@ export default {
   color: #fff;
 }
 
+ @media screen and (max-width: 768px)  {
+   .title {
+     margin: 8% 0;
+   }
+   .tabs {
+     padding: 5% 0;
+   }
+   .inner li {
+     width: 50%;
+   }
+   .item-more {
+     margin: 5% 20%;
+   }
+ }
+
 </style>

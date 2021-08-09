@@ -96,4 +96,18 @@ export default {
   width: 90%;
   margin-bottom: 10px;
 }
+ @media screen and (max-width: 768px)  {
+   .store {
+     width: 90%;
+   }
+   .move {
+     justify-content: center;
+   }
+   .store-img {
+     width: 50%;
+   }
+   .store-title {
+     text-align: center;
+   }
+ }
 </style>

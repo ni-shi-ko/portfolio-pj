@@ -59,6 +59,11 @@ export default {
   font-size: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+ @media screen and (max-width: 768px)  {
+   .news-card {
+     text-align: center;
+     margin: 0;
+   }
+ }
 
 </style>

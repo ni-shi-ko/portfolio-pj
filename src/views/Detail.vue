@@ -60,4 +60,9 @@ export default {
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
   }
+   @media screen and (max-width: 768px)  {
+     .detail-wrap {
+       width: 90%;
+     }
+   }
 </style>
