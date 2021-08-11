@@ -8,7 +8,7 @@
         <input placeholder="name" type="text" v-model="text"/>
         <input placeholder="mail" type="email" v-model="email"/>
         <input placeholder="password" type="password" v-model="pas"/>
-        <button @click="signUp">SignUp</button>
+        <button>SignUp</button>
       </form>
     </div>
   </div>
