@@ -59,58 +59,58 @@ export default {
             src: require ("../assets/img/collectiom2.jpg"),
             category: "men"},
           {
-            index:5,
+            index:6,
              src: require ("../assets/img/collection3.jpg"),
             category: "men"},
           {
-            index:6,
+            index:7,
             src: require ("../assets/img/wcollection6.jpg"),
             category: "women"},
           {
-            index:7,
+            index:8,
             src: require ("../assets/img/wcollection4.jpg"),
             category: "women"},
           {
-            index:8,
+            index:9,
             src: require ("../assets/img/collection4.jpg"),
             category: "men"},   
           {
-            index:9,
+            index:10,
             src: require ("../assets/img/collection5.jpg"),
             category: "men"},
           {
-            index:10,
+            index:11,
             src: require ("../assets/img/wcollection8.jpg"),
             category: "women"},
           {
-            index:11,
+            index:12,
             src: require ("../assets/img/collection1.jpg"),
             category: "men"},
           {
-            index:12,
+            index:13,
             src: require ("../assets/img/wcollection7.jpg"),
             category: "women"},
           {
-            index:13,
+            index:14,
             src: require ("../assets/img/collection7.jpg"),
             category: "men"},
           {
-            index:14,
+            index:15,
             src: require ("../assets/img/collection12.jpg"),
             category:"men"
           },
           {
-            index:15,
+            index:16,
             src: require ("../assets/img/wcollection3.jpg"),
             category:"women"
           },
           {
-            index:16,
+            index:17,
             src: require ("../assets/img/wcollection9.jpg"),
             category:"women"
           },
           {
-            index:17,
+            index:18,
             src: require ("../assets/img/collection8.jpg"),
             category:"men"
           }
