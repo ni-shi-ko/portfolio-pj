@@ -14,7 +14,7 @@
     <Sidenav />
     <div class="store">
       <ul class="store-list">
-        <li v-for="(image, index) in images" :key="$third-{index}" class="store-img">
+        <li v-for="(image, index) in images" :key="index" class="store-img">
           <img :src="image" alt="">
         </li>
       </ul>

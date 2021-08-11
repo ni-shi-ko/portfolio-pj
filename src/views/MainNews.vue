@@ -6,7 +6,7 @@
       <div class="news-border"></div>
     </div>
     <div class="news-card">
-      <News v-for="(data, index ) in newses" :key="$five-{index}" :news="data.news" :img="data.img" />
+      <News v-for="(data, index ) in newses" :key="index" :news="data.news" :img="data.img" />
     </div>
     <Footer />
   </div>
