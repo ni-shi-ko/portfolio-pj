@@ -17,7 +17,7 @@
        <li class="line"></li>
        <li>
          <div class="search-form">
-         <input type="text" placeholder="Serch" class="search" v-model="item_name">
+         <input type="text" placeholder="Serch" class="search" >
        </div>
        </li>
       </ul>
