@@ -60,7 +60,7 @@ export default {
             category: "men"},
           {
             index:6,
-             src: require ("../assets/img/collection4.jpg"),
+             src: require ("../assets/img/collection3.jpg"),
             category: "men"},
           {
             index:7,
